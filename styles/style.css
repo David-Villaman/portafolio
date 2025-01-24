@@ -12,13 +12,35 @@ body{
     color: #F6F6F6;
 }
 
+.header{
+    padding: 5% 0% 0% 15%;
+}
+
+.header-menu{
+    display: flex;
+    gap: 80px;
+
+}
+
+.header-menu-link{
+    color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+.header-menu-link:hover{
+    color: #ffffff;
+}
 
 .title-strong {
     color: #22D4FD; ;
 }
 
 .presentacion {
-    margin: 10% 15%;
+    padding: 7% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;

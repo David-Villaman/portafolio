@@ -7,7 +7,6 @@
 }
 
 body{
-    height: 100vh;
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
@@ -62,10 +61,47 @@ h1{
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     border: #22D4FD 2px solid;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 .presentacion-redes-subtitulo{
     font-size: 24px;
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
+}
+
+.presentacion-links:hover{
+    background-color: #272727;
+    
+}
+
+.name-strong:hover{
+    color: #22D4FD;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #22D4FD;
+    padding: 10px ;
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.github-link{
+    text-decoration: none;
 }
